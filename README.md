@@ -2,6 +2,37 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+# Instruction of set up this app
+
+## Check node, npm and yarn versions
+
+1. Open your command prompt
+2. Run the command `node -v` and `npm -v` for checking node and npm version
+3. Run the command `yarn -v`
+
+## Install Node
+
+(If node is already installed in you pc then no need to follow the step)
+
+1. Got to [https://nodejs.org/](https://nodejs.org/)
+2. Download latest node installer and install install it
+3. Check again the node and npm versions.
+
+## Install yarn your pc
+
+(If you already have yarn in your pc then no need to follow the step)
+
+1. You have to install node first and then you can install yarn
+2. Run the command `npm install --global yarn`
+3. Check yarn version
+
+## Clone and install the necessary packages
+
+1. Create a folder in you computer. Which will be used as the root folder of the project. (N.B.- The folder must be empty)
+2. Run the command `git clone -b <branch-name> https://github.com/HabibullahFTL/react-app-boilerplate.git .`
+3. Now for installing dependencies, run the command `yarn`
+4. For opening your application to browser, `yarn start`
+
 ## Available Scripts
 
 In the project directory, you can run:
